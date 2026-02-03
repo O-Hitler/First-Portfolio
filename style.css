@@ -1,0 +1,21 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.extra{
+    font-weight: 800;
+}
+.newss{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10%;
+}
+.heads{
+    background-color: whitesmoke
+}
+.card-head{
+    background-color: #C4E1E6;
+}
