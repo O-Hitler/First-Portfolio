@@ -1,176 +1,318 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Personal Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body class="bg-dark text-light">
-    <div class=" sticky-top heads"> 
-        <header class="d-flex justify-content-center flex-wrap py-3 bg-success"> 
-            <ul class="nav nav-pills"> 
-                <li class="nav-item">
-                    <a href="#home" class=" btn btn-dark nav-link text-light" aria-current="page">Home</a>
-                </li> 
-                <li class="nav-item">
-                    <a href="#about" class="btn btn-dark nav-link text-light"> About</a>
-                </li> <li class="nav-item">
-                    <a href="#project" class="btn btn-dark nav-link text-light">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contact" class="btn btn-dark nav-link text-light">Contact</a>
-                </li>
-            </ul> 
-        </header> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-dark text-light" id="home">
+    <div class="sticky-top heads">
+      <header
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 mb-4 bg-success px-3"
+      >
+        <a href="#" class="d-flex align-items-center text-decoration-none">
+          <img
+            src="Menod Photo.jpg"
+            alt="logo"
+            width="50"
+            height="50"
+            class="rounded-circle"
+          />
+          <span class="fs-4 text-light ms-2">Portfolio</span>
+        </a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a href="#home" class="btn btn-dark nav-link text-light">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="btn btn-dark nav-link text-light">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a href="#project" class="btn btn-dark nav-link text-light">Project</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="btn btn-dark nav-link text-light">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="#footer" class="btn btn-dark nav-link text-light">Footer</a>
+          </li>
+        </ul>
+      </header>
     </div>
 
- <!-- Hero Section -->
+    <!-- Hero Section -->
 
-     <div  class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg"> 
-        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3"> 
-            <h1 class="display-4 fw-bold lh-1 text-body-light" >Oinam Menodkumar Khuman</h1> 
-            <p class="lead">A BCA student driven by curiosity and code, currrently in 4th semester, building a strong foundation in Python,C,C++,HTML,CSS sharpening both logical thinking and problem solving skills. I'm passionate about technology ,creative Development and continuous learning</p> 
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3"> 
-                <button type="button" class="btn btn-success btn-lg px-4 me-md-2 fw-bold">Download Resume</button>
-                <button type="button" class="btn btn-outline-secondary btn-lg px-4">Contact Me</button> 
-            </div> 
-        </div> 
-        <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-            <img class="rounded-lg-3 container-fluid picture" src="https://scontent.fdel29-1.fna.fbcdn.net/v/t39.30808-6/525340981_1913938529391205_7277965394519235587_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=QYi00xv9HpoQ7kNvwF5eeNt&_nc_oc=AdlQihKmypchQMGSD6J7mo7yM0cGJo1skSC6DlvCiWh6a184qcooZ9-eg7CCrGggTJI&_nc_zt=23&_nc_ht=scontent.fdel29-1.fna&_nc_gid=TIo5DKRvzhnKiDoobYLp-g&oh=00_AfsjE68gZogKw8kye7kboiygf1xmplfrTrxT_zoQHCtJCw&oe=6990BD46" alt="" width="720"> 
-        </div> 
-    </div> 
+    <div
+      class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border-bottom shadow-lg" 
+    >
+      <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+        <h1 class="display-4 fw-bold lh-1 text-body-light">
+          Oinam Menodkumar Khuman
+        </h1>
+        <p class="lead">
+          A BCA student driven by curiosity and code, currrently in 4th
+          semester, building a strong foundation in Python,C,C++,HTML,CSS
+          sharpening both logical thinking and problem solving skills. I'm
+          passionate about technology ,creative Development and continuous
+          learning
+        </p>
+        <div
+          class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3"
+        >
+          <button
+            type="button"
+            class="btn btn-success btn-lg px-4 me-md-2 fw-bold"
+          >
+            Download Resume
+          </button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+            Contact Me
+          </button>
+        </div>
+      </div>
+      <div
+        class="rounded-lg-3col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg image"
+      >
+        <img
+          class="rounded-lg-3 container-fluid picture image"
+          src="Menod Photo.jpg"
+          alt=""
+          width="720"
+        />
+      </div>
+    </div>
 
     <!-- About Me -->
-    <section class="container-fluid">
-        <hr>
-            <h1 class="px-4 py-5 my-5 text-center extra text-light fw-bold">About Me</h1>
-            <div class="container-fluid newss d-flex justify-content-evenly ">
-
-                <!--Firts Card-->
-                <div class="card bg-dark-subtle" style="width: 18rem;" >
-                    <div class="card-body card-head">
-                        <h5 class="card-title text-center" >
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-backpack-fill" viewBox="0 0 16 16">
-                            <path d="M5 13v-3h4v.5a.5.5 0 0 0 1 0V10h1v3z"/>
-                            <path d="M6 2v.341C3.67 3.165 2 5.388 2 8v5.5A2.5 2.5 0 0 0 4.5 16h7a2.5 2.5 0 0 0 2.5-2.5V8a6 6 0 0 0-4-5.659V2a2 2 0 1 0-4 0m2-1a1 1 0 0 1 1 1v.083a6 6 0 0 0-2 0V2a1 1 0 0 1 1-1m0 3a4 4 0 0 1 3.96 3.43.5.5 0 1 1-.99.14 3 3 0 0 0-5.94 0 .5.5 0 1 1-.99-.14A4 4 0 0 1 8 4M4.5 9h7a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5"/>
-                            </svg> Skills
-                        </h5>
-                        <hr>
-                        <ul>
-                            <li>Web Development</li>
-                            <li>Natural Language Processing</li>
-                        </ul>
-                    </div>
-            </div>
-<!--Second Card-->
-            <div class="card bg-dark-subtle" style="width: 18rem;">
-                <div class="card-body card-head">
-                    <h5 class="card-title text-center">Experience
-                    </h5> 
-                    <hr>
-                    <ul>
-                        <li>Web Development</li>
-                        <li>Natural Language Processing</li>
-                    </ul>
-                </div>
-            </div>
-            <!-- Third Card -->
-            <div class="card bg-dark-subtle" style="width: 18rem;">
-                <div class="card-body card-head">
-                    <h5 class="card-title text-center">Passions</h5> <hr>
-                    <ul>
-                        <li>Web Development</li>
-                        <li>Natural Language Processing</li>
-                    </ul>
-                </div>
-            </div>
+    <section class="container-fluid" id="about">
+      <hr />
+      <h1 class="px-4 py-5 my-5 text-center extra text-light fw-bold">
+        About Me
+      </h1>
+      <div class="container-fluid newss d-flex justify-content-evenly">
+        <!--Firts Card-->
+        <div class="card bg-dark-subtle m-2" style="width: 18rem">
+          <div class="card-body card-head">
+            <h5 class="card-title text-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-backpack-fill"
+                viewBox="0 0 16 16"
+              >
+                <path d="M5 13v-3h4v.5a.5.5 0 0 0 1 0V10h1v3z" />
+                <path
+                  d="M6 2v.341C3.67 3.165 2 5.388 2 8v5.5A2.5 2.5 0 0 0 4.5 16h7a2.5 2.5 0 0 0 2.5-2.5V8a6 6 0 0 0-4-5.659V2a2 2 0 1 0-4 0m2-1a1 1 0 0 1 1 1v.083a6 6 0 0 0-2 0V2a1 1 0 0 1 1-1m0 3a4 4 0 0 1 3.96 3.43.5.5 0 1 1-.99.14 3 3 0 0 0-5.94 0 .5.5 0 1 1-.99-.14A4 4 0 0 1 8 4M4.5 9h7a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5"
+                />
+              </svg>
+              Skills
+            </h5>
+            <hr />
+            <ul>
+              <li>Web Development</li>
+              <li>Natural Language Processing</li>
+            </ul>
+          </div>
         </div>
+        <!--Second Card-->
+        <div class="card bg-dark-subtle m-2" style="width: 18rem">
+          <div class="card-body card-head">
+            <h5 class="card-title text-center">Experience</h5>
+            <hr>
+            <ul>
+              <li>Web Development</li>
+              <li>Natural Language Processing</li>
+            </ul>
+          </div>
+        </div>
+        <!-- Third Card -->
+        <div class="card bg-dark-subtle m-2" style="width: 18rem">
+          <div class="card-body card-head">
+            <h5 class="card-title text-center">Passions</h5>
+            <hr>
+            <ul>
+              <li>Web Development</li>
+              <li>Natural Language Processing</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </section>
-    <hr>
+    <hr />
     <div>
-        <!-- My Project -->
-        <h1 class="px-4 py-5 my-5 text-center  fw-bold extra" id="project">My Projects</h1>
-        <div class="container-fluid newss d-flex justify-content-evenly align-items-center">
-            <!--First Card-->
-            <div class="card bg-dark-subtle" style="width: 18rem;">
-                <div class="card-body card-head">
-                    <h5 class="card-title text-center" > <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-backpack-fill" viewBox="0 0 16 16">
-                        <path d="M5 13v-3h4v.5a.5.5 0 0 0 1 0V10h1v3z"/>
-                        <path d="M6 2v.341C3.67 3.165 2 5.388 2 8v5.5A2.5 2.5 0 0 0 4.5 16h7a2.5 2.5 0 0 0 2.5-2.5V8a6 6 0 0 0-4-5.659V2a2 2 0 1 0-4 0m2-1a1 1 0 0 1 1 1v.083a6 6 0 0 0-2 0V2a1 1 0 0 1 1-1m0 3a4 4 0 0 1 3.96 3.43.5.5 0 1 1-.99.14 3 3 0 0 0-5.94 0 .5.5 0 1 1-.99-.14A4 4 0 0 1 8 4M4.5 9h7a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5"/>
-                    </svg> Propose Ur Gf</h5> 
-                    <hr>
-                    <a href="https://menodkumar.github.io/Love-me-Valentine" target="_blank">Click here to view</a>
-                </div>
-            </div>
-            <!--Second Card-->
-            <div class="card bg-dark-subtle" style="width: 18rem;">
-                <div class="card-body card-head">
-                    <h5 class="card-title text-center"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-backpack-fill" viewBox="0 0 16 16">
-                        <path d="M5 13v-3h4v.5a.5.5 0 0 0 1 0V10h1v3z"/>
-                        <path d="M6 2v.341C3.67 3.165 2 5.388 2 8v5.5A2.5 2.5 0 0 0 4.5 16h7a2.5 2.5 0 0 0 2.5-2.5V8a6 6 0 0 0-4-5.659V2a2 2 0 1 0-4 0m2-1a1 1 0 0 1 1 1v.083a6 6 0 0 0-2 0V2a1 1 0 0 1 1-1m0 3a4 4 0 0 1 3.96 3.43.5.5 0 1 1-.99.14 3 3 0 0 0-5.94 0 .5.5 0 1 1-.99-.14A4 4 0 0 1 8 4M4.5 9h7a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5"/>
-                        </svg> Grocery Shop
-                    </h5>
-                    <hr>
-                    <a href="https://o-hitler.github.io/Grocery/" target="_blank"> Click here to view</a>
-                </div>
-            </div>
-            <!-- Third Card -->
-            <div class="card bg-dark-subtle" style="width: 18rem;">
-                <div class="card-body card-head">
-                    <h5 class="card-title text-center"> 
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-backpack-fill" viewBox="0 0 16 16">
-                        <path d="M5 13v-3h4v.5a.5.5 0 0 0 1 0V10h1v3z"/>
-                        <path d="M6 2v.341C3.67 3.165 2 5.388 2 8v5.5A2.5 2.5 0 0 0 4.5 16h7a2.5 2.5 0 0 0 2.5-2.5V8a6 6 0 0 0-4-5.659V2a2 2 0 1 0-4 0m2-1a1 1 0 0 1 1 1v.083a6 6 0 0 0-2 0V2a1 1 0 0 1 1-1m0 3a4 4 0 0 1 3.96 3.43.5.5 0 1 1-.99.14 3 3 0 0 0-5.94 0 .5.5 0 1 1-.99-.14A4 4 0 0 1 8 4M4.5 9h7a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5"/>
-                        </svg>Curry Recipes
-                    </h5> 
-                    <hr>
-                    <a href="https://o-hitler.github.io/ChickenCurryRecipe">Click here to view</a>
-                </div>
-            </div>
+      <!-- My Project -->
+      <h1 class="px-4 py-5 my-5 text-center fw-bold extra" id="project" id="project">
+        My Projects
+      </h1>
+      <div
+        class="container-fluid newss d-flex justify-content-evenly align-items-center"
+      >
+        <!--First Card-->
+        <div class="card bg-dark-subtle m-2 text-center" style="width: 18rem">
+          <div class="card-body card-head">
+            <h5 class="card-title text-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-backpack-fill"
+                viewBox="0 0 16 16"
+              >
+                <path d="M5 13v-3h4v.5a.5.5 0 0 0 1 0V10h1v3z" />
+                <path
+                  d="M6 2v.341C3.67 3.165 2 5.388 2 8v5.5A2.5 2.5 0 0 0 4.5 16h7a2.5 2.5 0 0 0 2.5-2.5V8a6 6 0 0 0-4-5.659V2a2 2 0 1 0-4 0m2-1a1 1 0 0 1 1 1v.083a6 6 0 0 0-2 0V2a1 1 0 0 1 1-1m0 3a4 4 0 0 1 3.96 3.43.5.5 0 1 1-.99.14 3 3 0 0 0-5.94 0 .5.5 0 1 1-.99-.14A4 4 0 0 1 8 4M4.5 9h7a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5"
+                />
+              </svg>
+              Propose Ur Gf
+            </h5>
+            <hr />
+            <a
+              href="https://menodkumar.github.io/Love-me-Valentine"
+              target="_blank"
+              >Click here to view</a
+            >
+          </div>
         </div>
+        <!--Second Card-->
+        <div class="card bg-dark-subtle m-2 text-center" style="width: 18rem">
+          <div class="card-body card-head">
+            <h5 class="card-title text-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-backpack-fill"
+                viewBox="0 0 16 16"
+              >
+                <path d="M5 13v-3h4v.5a.5.5 0 0 0 1 0V10h1v3z" />
+                <path
+                  d="M6 2v.341C3.67 3.165 2 5.388 2 8v5.5A2.5 2.5 0 0 0 4.5 16h7a2.5 2.5 0 0 0 2.5-2.5V8a6 6 0 0 0-4-5.659V2a2 2 0 1 0-4 0m2-1a1 1 0 0 1 1 1v.083a6 6 0 0 0-2 0V2a1 1 0 0 1 1-1m0 3a4 4 0 0 1 3.96 3.43.5.5 0 1 1-.99.14 3 3 0 0 0-5.94 0 .5.5 0 1 1-.99-.14A4 4 0 0 1 8 4M4.5 9h7a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5"
+                />
+              </svg>
+              Grocery Shop
+            </h5>
+            <hr />
+            <a href="https://o-hitler.github.io/Grocery/" target="_blank">
+              Click here to view</a
+            >
+          </div>
+        </div>
+        <!-- Third Card -->
+        <div class="card bg-dark-subtle m-2 text-center" style="width: 18rem">
+          <div class="card-body card-head">
+            <h5 class="card-title text-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-backpack-fill"
+                viewBox="0 0 16 16"
+              >
+                <path d="M5 13v-3h4v.5a.5.5 0 0 0 1 0V10h1v3z" />
+                <path
+                  d="M6 2v.341C3.67 3.165 2 5.388 2 8v5.5A2.5 2.5 0 0 0 4.5 16h7a2.5 2.5 0 0 0 2.5-2.5V8a6 6 0 0 0-4-5.659V2a2 2 0 1 0-4 0m2-1a1 1 0 0 1 1 1v.083a6 6 0 0 0-2 0V2a1 1 0 0 1 1-1m0 3a4 4 0 0 1 3.96 3.43.5.5 0 1 1-.99.14 3 3 0 0 0-5.94 0 .5.5 0 1 1-.99-.14A4 4 0 0 1 8 4M4.5 9h7a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5"
+                /></svg>Curry Recipes
+            </h5>
+            <hr />
+            <a href="https://o-hitler.github.io/ChickenCurryRecipe"
+              >Click here to view</a>
+          </div>
+        </div>
+      </div>
     </div>
-    <hr>
+    <hr />
+
+    <!--Contact-->
+    <section id="contact" class="py-5 bg-dark text-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Contact Me</h2>
+
+    <div class="row">
+
+      <!-- Contact Info -->
+      <div class="col-md-5 mb-4">
+        <h4>Let's Connect</h4>
+        <p>
+          If you have any project ideas, collaboration opportunities,
+          or simply want to say hello, feel free to reach out.
+        </p>
+
+        <p><strong>Email:</strong> oinammenodkumar@gmail.com</p>
+        <p><strong>Phone:</strong> +91 9774043248</p>
+        <p><strong>Location:</strong> Manipur, India</p>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="col-md-7">
+        <form>
+
+          <div class="mb-3">
+            <label class="form-label">Your Name</label>
+            <input type="text" class="form-control" placeholder="Enter your name">
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Email Address</label>
+            <input type="email" class="form-control" placeholder="Enter your email">
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Message</label>
+            <textarea class="form-control" rows="4" placeholder="Write your message"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-success px-4">
+            Send Message
+          </button>
+
+        </form>
+      </div>
+
+    </div>
+
+  </div>
+</section>
 
     <!-- Footer -->
-    <footer>
-        <div class="container-fluid"> 
-            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"> 
-                <div class="col-md-4 d-flex align-items-center"> 
-                    <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" aria-label="Bootstrap"> 
-                        <svg class="bi" width="30" height="24" aria-hidden="true">
-                            <use xlink:href="#bootstrap"></use>
-                        </svg> 
-                    </a> 
-                    <span class="mb-3 mb-md-0 text-body-secondary"> 2025 Company, Inc</span> 
-                </div> 
-                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex"> 
-                    <li class="ms-3">
-                        <a class="text-body-secondary" href="#" aria-label="Instagram">
-                            <svg class="bi" width="24" height="24" aria-hidden="true">
-                                <use xlink:href="#instagram"></use>
-                            </svg>
-                        </a>
-                    </li> 
-                    <li class="ms-3">
-                        <a class="text-body-secondary" href="#" aria-label="Facebook">
-                            <svg class="bi" width="24" height="24">
-                                <use xlink:href="#facebook"></use>
-                            </svg>
-                        </a>
-                    </li> 
-                </ul> 
-            </footer> 
-        </div>
-    </footer>
+
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 px-4 bg-success text-light" id="footer">
+
+
+  <p class="mb-0">
+    © 2026 Oinam Menodkumar Khuman. All rights reserved.
+  </p>
+
+
+  <div class="fs-4">
+    <a href="https://github.com/O-Hitler" target="_blank" class="text-light me-3"><i class="bi bi-github"></i></a>
+    <a href="https://www.linkedin.com/in/menodkumar-oinam-7593b0270/" target="_blank" class="text-light me-3"><i class="bi bi-linkedin"></i></a>
+    <a href="https://www.instagram.com/menodkumar" target="_blank" class="text-light me-3"><i class="bi bi-instagram"></i></a>
+    <a href="https://wa.me/919774043248" target="_blank" class="text-light me-3">
+        <i class="bi bi-whatsapp"></i></a>
+    <a href="mailto:oinammenodkumar@gmail.com" class="text-light"><i class="bi bi-envelope-fill"></i></a>
+  </div>
+
+</footer>
 
 
 
-    
 
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
